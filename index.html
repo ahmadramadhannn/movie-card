@@ -4,62 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Movie Card</title>
 </head>
 <body>
-<div class="container">
-  <div class="cellphone-container">    
-      <div class="movie">       
-        <div class="menu"><i class="material-icons"></i></div>
-        <div class="movie-img"></div>
-        <div class="text-movie-cont">
-          <div class="mr-grid">
-            <div class="col1">
-              <h1>Interstellar</h1>
-              <ul class="movie-gen">
-                <li>PG-13  /</li>
-                <li>2h 49min  /</li>
-                <li>Adventure, Drama, Sci-Fi,</li>
-              </ul>
-            </div>
-          </div>
-          <div class="mr-grid summary-row">
-            <div class="col2">
-              <h5>SUMMARY</h5>
-            </div>
-            <div class="col2">
-               <ul class="movie-likes">
-                <li><i class="material-icons">&#xE813;</i>124</li>
-                <li><i class="material-icons">&#xE813;</i>3</li>
-              </ul>
-            </div>
-          </div>
-          <div class="mr-grid">
-            <div class="col1">
-              <p class="movie-description">A group of elderly people are giving interviews about having lived in a climate of crop blight and constant dust reminiscent of The Great 
-              Depression of the 1930's. The first one seen is an elderly woman stating her father was a farmer, but did not start out that way. </p>
-            </div>
-          </div>
-          <div class="mr-grid actors-row">
-            <div class="col1">
-              <p class="movie-actors">Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
-            </div>
-          </div>
-          <div class="mr-grid action-row">
-            <div class="col2"><div class="watch-btn"><h3><i class="material-icons">&#xE037;</i>WATCH TRAILER</h3></div>
-            </div>
-            <div class="col6 action-btn"><i class="material-icons">&#xE161;</i>
-            </div>
-            <div class="col6 action-btn"><i class="material-icons">&#xE866;</i>
-            </div>
-            <div class="col6 action-btn"><i class="material-icons">&#xE80D;</i>
-            </div>
-          </div>
-        </div>
-      </div>
+ <div class="movie_card" id="bright">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://movieplayer.net-cdn.it/t/images/2017/12/20/bright_jpg_191x283_crop_q85.jpg"/>
+      <h1>Bright</h1>
+      <h4>2017, David Ayer</h4>
+      <span class="minutes">117 min</span>
+      <p class="type">Action, Crime, Fantasy</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+        Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for. 
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+        <li><i class="material-icons">share</i></li>
+        <li><i class="material-icons"></i></li>
+        <li><i class="material-icons">chat_bubble</i></li>
+      </ul>
+    </div>
   </div>
+  <div class="blur_back bright_back"></div>
+</div>
+
+<div class="movie_card" id="tomb">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://mr.comingsoon.it/imgdb/locandine/235x336/53750.jpg"/>
+      <h1>Tomb Raider</h1>
+      <h4>2018, Roar Uthaug</h4>
+      <span class="minutes">125 min</span>
+      <p class="type">Action, Fantasy</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+        Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she finds herself on the island where her father disappeared.
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+        <li><i class="material-icons">share</i></li>
+        <li><i class="material-icons"></i></li>
+        <li><i class="material-icons">chat_bubble</i></li>
+      </ul>
+    </div>
+  </div>
+  <div class="blur_back tomb_back"></div>
+</div>
+
+<div class="movie_card" id="ave">
+  <div class="info_section">
+    <div class="movie_header">
+      <img class="locandina" src="https://mr.comingsoon.it/imgdb/locandine/235x336/53715.jpg"/>
+      <h1>Black Panther</h1>
+      <h4>2018, Ryan Coogler</h4>
+      <span class="minutes">134 min</span>
+      <p class="type">Action, Adventure, Sci-Fi</p>
+    </div>
+    <div class="movie_desc">
+      <p class="text">
+        T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake. 
+      </p>
+    </div>
+    <div class="movie_social">
+      <ul>
+        <li><i class="material-icons">share</i></li>
+        <li><i class="material-icons"></i></li>
+        <li><i class="material-icons">chat_bubble</i></li>
+      </ul>
+    </div>
+  </div>
+  <div class="blur_back ave_back"></div>
 </div>   
 </body>
 </html>
